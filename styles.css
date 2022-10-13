@@ -1,0 +1,62 @@
+body { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-image: url(./IMAGES/background.jpg);
+
+    min-height: 750px;
+
+    background-color: #f3b54a;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*Styling the header */
+.header {
+    padding: 60px;
+    text-align: center;
+    background-color: none;
+    color:black
+}
+
+/*Font size of h1 increased */
+.header h1 {
+    font-size: 50px;
+}
+
+/* Styling the paragraph */
+p.solid {
+    border-style: solid;
+    border-radius: 5px;
+    border-color:azure;
+    color: seagreen;
+}
+
+/*Styling top nav bar */
+.navbar {
+    overflow: hidden;
+    background-color: #f3b54a;
+}
+
+/*Styling nav bar */
+.navbar a {
+    float: right;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.navbar a.right {
+    background-color: #f3b54a;
+    color: black;
+}
+
+img {
+    border-radius: 50%;
+    float:right
+
+}
